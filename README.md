@@ -1,2 +1,2 @@
-# aether-website-2019
-Mahindra École Centrale's Annual College Fest website.
+# Lithium 2k24 | BIT official Freshres
+Lithium 2k24 | BIT official Freshres
