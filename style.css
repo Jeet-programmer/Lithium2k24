@@ -3716,13 +3716,14 @@ section{
 
 }
 .herotext h1{
-      background: linear-gradient(45deg, #0754fb, #847474);
+      /* background: linear-gradient(45deg, #0754fb, #847474); */
 	  font-family: 'Verdana', sans-serif;
       -webkit-background-clip: text;
       /* color: transparent; */
+	  color: rgb(207, 26, 111);
       font-size: 6em;
       margin: 20px 0;
-	  text-shadow: 8px 8px 12px #ffff00;
+	  text-shadow: 8px 8px 12px #c1c10f;
 	  text-align: center;
 	  font-weight: bold;
 
