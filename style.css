@@ -3722,8 +3722,9 @@ section{
       /* color: transparent; */
       font-size: 6em;
       margin: 20px 0;
-	  text-shadow: 6px 6px 12px #ffff00;
+	  text-shadow: 8px 8px 12px #ffff00;
 	  text-align: center;
+	  font-weight: bold;
 
 
 }
@@ -3731,9 +3732,10 @@ section{
 .herotext p{
 	/* p { */
       font-size: 3em;
-      color: #1616aa;
-	  	  text-shadow: 6px 6px 12px #ffff00;
+      color: #dbea0c;
+	  	  text-shadow: 8px 8px 12px #613fb1;
 		  	text-align: center;
+				  font-weight: bold;
 
 
     /* } */
