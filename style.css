@@ -3610,16 +3610,16 @@ section{
 
 .swiper-button-next,
 .swiper-button-prev {
-    font-size: 24px;
+    font-size: 3rem;
     color: #fff;
 }
 
 .swiper-button-next {
-    right: 10px;
+    right: 8px;
 }
 
 .swiper-button-prev {
-    left: 10px;
+    left: 8px;
 } 
 
 
@@ -3661,6 +3661,7 @@ section{
     margin: 0 10px;
     text-decoration: none;
     color: #333;
+	font-size: 3rem;
 }
 
 /* Style the name and profession */
@@ -3670,7 +3671,7 @@ section{
 
 .name-profession .name {
     display: block;
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: bold;
     color: #333;
 }
@@ -3684,7 +3685,7 @@ section{
 /* Style the navigation arrows */
 .swiper-button-next, .swiper-button-prev {
     color: #fff;
-    font-size: 18px;
+    font-size: 3rem;
 }
 
 /* Position the navigation arrows */
@@ -3791,6 +3792,8 @@ align-items: center;
     margin: 0 10px;
     text-decoration: none;
     color: #dee96b;
+	font-size: 3rem;
+
 }
 
 /* Style the name and profession */
@@ -3800,7 +3803,7 @@ align-items: center;
 
 .name-professionn .name {
     display: block;
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: bold;
     color: #d1e376;
 }
@@ -3833,6 +3836,7 @@ align-items: center;
     margin: 0 10px;
     text-decoration: none;
     color: #333;
+	font-size: 3rem;
 }
 
 /* Style the name and profession */
