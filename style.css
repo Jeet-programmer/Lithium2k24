@@ -3742,6 +3742,17 @@ section{
 }
 
 
-#faculty{
-	background-color: red;
+#Faculty{
+display: flex !important;
+justify-content: center;
+align-items: center;
+
+}
+#facultysection{
+	padding-top: 150px;
+    padding-bottom: 50px;
+}
+#techteam{
+	padding-top: 150px;
+    padding-bottom: 50px;
 }
