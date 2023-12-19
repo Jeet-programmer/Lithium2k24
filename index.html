@@ -294,12 +294,7 @@ span.Schedule:hover{
     .scroll-up-btn {
         right: 40% !important;
     }
-    #Faculty{
-display: inline-block !important;
-justify-content: center;
-align-items: center;
 
-}
 }
 .sizebox3{
     height: 40px;
@@ -1142,8 +1137,8 @@ align-items: center;
             </div>
 
             <!-- Navigation arrows and pagination -->
-            <!-- <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
             <!-- <div class="swiper-pagination"></div> -->
         </div>
     </div>
@@ -1806,6 +1801,18 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    function removeIdForMobileView() {
+      var element = document.getElementById('Faculty');
+
+      // Check if the element exists and the screen width is within the mobile range (adjust the width as needed)
+      if (element && window.innerWidth <= 767) {
+        element.removeAttribute('id');
+      }
+    }
+
+    // Call the function on page load and resize
+    window.onload = removeIdForMobileView;
+    window.onresize = removeIdForMobileView;
 </script>
 
 	
