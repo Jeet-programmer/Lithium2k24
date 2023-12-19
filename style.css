@@ -3757,3 +3757,85 @@ align-items: center;
 	padding-top: 150px;
     padding-bottom: 50px;
 }
+
+.carddd {
+    /* background-color:linear-gradient(45deg, #0754fb, #847474); */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.cardde {
+    /* background-color: #fdc732; */
+    /* border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+}
+.card-contentt {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the profile image */
+.card-contentt .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Style the media icons */
+.card-contentt .media-icons {
+    margin-top: 15px;
+}
+
+.card-contentt .media-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #dee96b;
+}
+
+/* Style the name and profession */
+.card-contentt .name-profession {
+    margin-top: 15px;
+}
+
+.name-professionn .name {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #d1e376;
+}
+
+.name-professionn .profession {
+    display: block;
+    font-size: 1em;
+    color: #666;
+}
+
+
+.card-contentc {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the profile image */
+.card-contentc .image img {
+    width: 100%;
+    height: auto;
+    /* border-radius: 50%; */
+}
+
+/* Style the media icons */
+.card-contentc .media-icons {
+    margin-top: 15px;
+}
+
+.card-contentc .media-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the name and profession */
+.card-contentc .name-profession {
+    margin-top: 15px;
+}
