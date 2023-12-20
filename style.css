@@ -391,6 +391,7 @@ button:focus {
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
+	
 
 }
 
@@ -2585,6 +2586,7 @@ img::-moz-selection {
 
 .card-info {
 	padding: 20px;
+	padding-bottom:35px;
 	position: absolute;
 	bottom: 0;
 	color: #fff;
@@ -3477,7 +3479,7 @@ section{
 	.mu-event-timeline ul li:nth-child(2n+1) .mu-single-event,
 	.mu-event-timeline ul li:nth-child(2n) .mu-single-event {
 		left: 30px;
-		width: 350px;
+		width: 295px;
 	}
 
 	.mu-event-timeline ul li .mu-single-event h3 {
@@ -3502,7 +3504,7 @@ section{
 
 	#verve,#raga,#Sync,#nukkad,#survivor,#panache,#Dropping,#wtm,#dt,#stageCraft,#WTM,#btclock,#ratsel,#rcoding,#PointBlanc,#bit,#groove,#bob,#hack,#orion,#MasterShot,#Newkonomy{
 		max-width: 110px;
-		margin-left: 280px;
+		margin-left: 242px;
 		margin-top: -30px;
 
 	}
@@ -3637,11 +3639,13 @@ section{
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+	height:auto;
+	margin-top:20px;
 }
 
 /* Style the card content */
 .card-content {
-    padding: 20px;
+    padding: 60px;
     text-align: center;
 }
 
@@ -3671,14 +3675,14 @@ section{
 
 .name-profession .name {
     display: block;
-    font-size: 2em;
+    font-size: 1.8em;
     font-weight: bold;
     color: #333;
 }
 
 .name-profession .profession {
     display: block;
-    font-size: 1em;
+    font-size: 1.5em;
     color: #666;
 }
 
@@ -3713,20 +3717,27 @@ section{
 	    position: absolute;
     	z-index: 2;
 		top: 40%;
-		right: 30%;
+		right:2%;
+		left:2%; 
+
 
 }
 .herotext h1{
       /* background: linear-gradient(45deg, #0754fb, #847474); */
-	  font-family: 'Verdana', sans-serif;
+	  font-family: 'lemonmilkregular', sans-serif;
       -webkit-background-clip: text;
       /* color: transparent; */
-	  color: rgb(207, 26, 111);
+	  color: #f0f0f0 ;
       font-size: 6em;
       margin: 20px 0;
-	  text-shadow: 8px 8px 12px #c1c10f;
+	  text-shadow: 3px 3px 20px #ff2a2d,
+    -2px 1px 30px #ff99cc;
+	 /* text-shadow: 8px 8px 12px #ff2a2d;*/
 	  text-align: center;
 	  font-weight: bold;
+	  letter-spacing: 10px;
+	  filter: drop-shadow(16px 16px 20px #ff2a2d);
+	  
 
 
 }
@@ -3734,10 +3745,14 @@ section{
 .herotext p{
 	/* p { */
       font-size: 3em;
-      color: #dbea0c;
-	  	  text-shadow: 8px 8px 12px #613fb1;
-		  	text-align: center;
-				  font-weight: bold;
+	  font-family: 'comfortaaregular',sans-serif;
+      color:#7fff00;
+	  /*text-shadow: 8px 8px 12px #f0f0f0 ;*/
+	  text-shadow: 3px 3px 20px #000080 ,
+    -2px 1px 30px #00ced1;
+	  text-align: center;
+	  font-weight: bold;
+	  filter: drop-shadow(16px 16px 20px #000080);
 
 
     /* } */
@@ -3772,7 +3787,7 @@ align-items: center;
     overflow: hidden;
 }
 .card-contentt {
-    padding: 20px;
+    padding: 60px;
     text-align: center;
 }
 
