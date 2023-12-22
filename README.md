@@ -25,13 +25,6 @@ Congratulations on joining the Lithium 2k24 community! This readme is designed t
 
 ### 2. Getting Started
 
-#### 2.1 Setting Up Your Account
-
-Ensure that you have your BITS email and any relevant accounts set up. Join our official platforms on social media for regular updates.
-
-#### 2.2 Joining Channels and Groups
-
-Explore the various channels and groups related to Lithium 2k24 on platforms like Discord, WhatsApp, and other social media. This is where you'll find announcements, event details, and connect with fellow freshers.
 
 ### 3. Lithium 2k24 Community Guidelines
 
