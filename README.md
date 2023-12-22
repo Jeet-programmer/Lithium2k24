@@ -8,13 +8,11 @@ Congratulations on joining the Lithium 2k24 community! This readme is designed t
 
 1. **Introduction**
 2. **Getting Started**
-    - 2.1 Setting Up Your Account
     - 2.2 Joining Channels and Groups
 3. **Lithium 2k24 Community Guidelines**
 4. **Events and Activities**
     - 4.1 Fresher's Welcome
-    - 4.2 Workshops and Webinars
-    - 4.3 Social Gatherings
+    - 4.2 Social Gatherings
 5. **Resources and Documentation**
 6. **FAQs**
 7. **Contact Information**
