@@ -80,11 +80,11 @@
 
       </head>
   <body >
-  <div id="loader-wrapper">
+  <!-- <div id="loader-wrapper">
 		<div id="loader"></div>
 		<div class="loader-section section-left"></div>
 		<div class="loader-section section-right"></div>
-	</div>
+	</div> -->
 
   	
   	<!-- Start Header -->
@@ -957,7 +957,7 @@ span.Schedule:hover{
 		<!-- End Events -->
 
 		<!-- Start Pro Shows  -->
-		<section id="mu-venue">
+		<section id="mu-venue" style="background-color: #000000; -webkit-box-shadow: inset 0px 0px 50px #000; box-shadow: inset 0px 0px 50px #000;">
 			<div class="container">
 						<h1 class = "mu-title" id = "edm-title">Pro Shows</h1>
 						<div class="hoho-arrow"></div>
@@ -1008,8 +1008,33 @@ span.Schedule:hover{
 		</section>
 		<!-- End Pro Shows -->
 
-		<!-- Start Gallery  -->
-		<section id="mu-pricing" style="display: none;" >
+        <!-- <section id="mu-schedule">
+            <div class="container">
+                <div class="row">
+                    <div class="colo-md-12">
+                        <div class="mu-schedule-area">
+
+                            <div class="mu-title-area">
+                                <h2 class="mu-title">Gallery</h2>
+                            </div>
+
+                            <div class="mu-schedule-content-area"> -->
+<!-- 
+ </div>
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                -->
+
+		<section id="mu-pricing" >
 				
 
 			<div class="container-fluid">
@@ -1017,7 +1042,7 @@ span.Schedule:hover{
 					
 						<div class="mu-pricing-area no-gutter">
 						<div class="mu-pricing-content" style="align-items: center;">
-								<h1 id = "gallery-title" class="mu-title"> Image Gallery </h1>
+								<h1 id = "gallery-title" class="mu-title"> Image Gallery </h1> 
 				<div id="rg-gallery" class="rg-gallery">
 					<div class="rg-thumbs">
 						<div class="es-carousel-wrapper">
@@ -1027,8 +1052,16 @@ span.Schedule:hover{
 							</div>
 							<div class="es-carousel">
 								<ul>
-									<li><a href="#"><img src="assets/images/1.jpg" id = "fifth_image" data-large="assets/images/1.jpg" alt="image01" /></a></li>
-									<!-- "#"><img src="assets/images/img15.png" id = "fifth_image" data-large="assets/images/img15.png" alt="image15"/></a></li> -->
+									<li><a href="#"><img src="assets/images/gallery1.jpg" id = "fifth_image" data-large="assets/images/gallery1.jpg" alt="image01" /></a></li>
+									<li><a href="#"><img src="assets/images/gallery2.jpg" id = "fifth_image" data-large="assets/images/gallery2.jpg" alt="image01" /></a></li>
+									<li><a href="#"><img src="assets/images/gal3.jpg" id = "fifth_image" data-large="assets/images/gal3.jpg" alt="image01" /></a></li>
+									<li><a href="#"><img src="assets/images/gal4.jpg" id = "fifth_image" data-large="assets/images/gal4.jpg" alt="image01" /></a></li>
+                                    <li><a href="#"><img src="assets/images/gal5.jpg" id = "fifth_image" data-large="assets/images/gal5.jpg" alt="image01" /></a></li>
+                                    <li><a href="#"><img src="assets/images/gal6.jpg" id = "fifth_image" data-large="assets/images/gal6.jpg" alt="image01" /></a></li>
+                                    <li><a href="#"><img src="assets/images/gal7.jpg" id = "fifth_image" data-large="assets/images/gal7.jpg" alt="image01" /></a></li>
+                                    <li><a href="#"><img src="assets/images/gal8.jpg" id = "fifth_image" data-large="assets/images/gal8.jpg" alt="image01" /></a></li>
+                                    <li><a href="#"><img src="assets/images/gal9.jpg" id = "fifth_image" data-large="assets/images/gal9.jpg" alt="image01" /></a></li>
+                                    <li><a href="#"><img src="assets/images/gal10.jpg" id = "fifth_image" data-large="assets/images/gal10.jpg" alt="image01" /></a></li>
 								</ul>
 							</div>
 						</div>
@@ -1893,7 +1926,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (element && window.innerWidth <= 767) {
         element.removeAttribute('id');
       }
-    }
+    };
 
     // Call the function on page load and resize
     window.onload = removeIdForMobileView;
