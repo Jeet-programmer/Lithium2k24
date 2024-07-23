@@ -3738,13 +3738,13 @@ section{
 	  color: #f0f0f0 ;
       font-size: 6em;
       margin: 20px 0;
-	  text-shadow: 3px 3px 20px #ff2a2d,
-    -2px 1px 30px #ff99cc;
+	  text-shadow: 3px 3px 20px #2a2eff,
+    -2px 1px 30px #999cff;
 	 /* text-shadow: 8px 8px 12px #ff2a2d;*/
 	  text-align: center;
 	  font-weight: bold;
 	  letter-spacing: 10px;
-	  filter: drop-shadow(16px 16px 20px #ff2a2d);
+	  filter: drop-shadow(16px 16px 20px #2e2aff);
 	  
 
 

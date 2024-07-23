@@ -137,17 +137,18 @@
     <div class="herotext">
         <centre>
         <h1>Lithium 2k24</h1>
-        <p>Date revealing soon</p>
+        <p>Meet You All on 12th of August</p>
         </centre>
     </div>
 
     <!-- Days counter overlay -->
-    <div class="days-counter-overlay" style="display: none;">
+    <div class="days-counter-overlay"style="display: none;">
+        
         <span id="days-counter">10</span> <br> Days Left
     </div>
 
 	    <!-- Time counter overlay -->
-    <div class="time-counter-overlay"style="display: none;">
+    <div class="time-counter-overlay" style="display: none;">
         <span id="hours-counter">24</span> Hours <br>
         <span id="minutes-counter">60</span> Minutes <br>
         <span id="seconds-counter">60</span> Seconds
@@ -252,18 +253,22 @@ span.Schedule:hover{
     z-index: 2; /* Set a higher z-index than the parent div */
     font-size: 40px; /* Adjust the font size as needed */
     font-weight: bold; /* Set the font weight to bold */
-    color: #fff; /* Set the text color to white or your preferred color */
+    color: #f8faf9; /* Set the text color to white or your preferred color */
 	text-align: center;
+    text-shadow: 3px 3px 20px #f8c200,
+    -2px 1px 30px #999cff;
+    filter: drop-shadow(16px 16px 20px #f89d00);
+
 
 }
 
 .days-counter-overlay {
-    top: 25rem; /* Adjust the top position as needed */
-    right: 110rem; /* Adjust the right position as needed */
+    top: 30rem; /* Adjust the top position as needed */
+    right: 124rem; /* Adjust the right position as needed */
 }
 
 .time-counter-overlay {
-    top: 25rem; /* Adjust the top position as needed */
+    top: 30rem; /* Adjust the top position as needed */
     right: 80px; /* Adjust the right position as needed */
 }
 
@@ -275,12 +280,12 @@ span.Schedule:hover{
     }
 
     .days-counter-overlay {
-        top: 35rem; /* Adjust the top position for smaller screens */
+        top: 50rem; /* Adjust the top position for smaller screens */
         right: 15rem; /* Adjust the right position for smaller screens */
     }
 
     .time-counter-overlay {
-        top: 50rem; /* Adjust the top position for smaller screens */
+        top: 60rem; /* Adjust the top position for smaller screens */
         right: 14rem; /* Adjust the right position for smaller screens */
     }
     .herotext h1{
@@ -2002,7 +2007,7 @@ function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
 
-    var eventDate = new Date('2023-12-31');
+    var eventDate = new Date('2024-08-12');
 
     function updateCounters() {
         var currentDate = new Date();
