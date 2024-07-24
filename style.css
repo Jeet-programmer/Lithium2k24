@@ -641,7 +641,9 @@ button:focus {
 
 
 #mu-video {
-	background: url("assets/images/hypnotic.gif") 0 0;
+	/* background: url("assets/images/hypnotic.gif") 0 0; */
+	background: url("https://www.animaker.com/hub/wp-content/uploads/2022/10/5S6813BUQO3A5PSQ-1.gif") 0 0;
+
 	background-attachment: scroll;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -668,7 +670,7 @@ button:focus {
 }
 
 .mu-video-area h2 {
-	color: #fff;
+	color: #eedb06;
 }
 
 .mu-video-content {
