@@ -668,6 +668,9 @@ button:focus {
         video::-webkit-media-controls-fullscreen-button {
             filter: invert(1);
         }
+.hidden {
+        display: none;
+        }
 .mu-video-overlay {
 	display: inline;
 	float: left;

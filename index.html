@@ -307,7 +307,9 @@ span.Schedule:hover{
     #mu-hero {
 	background-image: url("./assets/images/aether_background_mob.png");
     }
-
+.desktop{
+    display: none;
+}
 }
 .sizebox3{
     height: 40px;
@@ -389,7 +391,10 @@ span.Schedule:hover{
 								<h2 class="mu-title">Principal's Message</h2>
 								<p class="mu-content">Click the below play button.</p>
 								<!-- <a class="mu-video-play-btn" href="/assets/videos/message.MOV.mp4"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>  -->
-                                <video width="900" height="600" controls style="z-index: 2;">
+                                <video class="desktop"width="900" height="600" controls style="z-index: 2;">
+    <source src="/assets/videos/message.MOV.mp4" type="video/mp4">
+</video>
+<video class="mobile hidden" width="360" height="240" controls style="z-index: 2;">
     <source src="/assets/videos/message.MOV.mp4" type="video/mp4">
 </video>
 					
@@ -2129,6 +2134,22 @@ document.addEventListener("DOMContentLoaded", function () {
     // Call the function on page load and resize
     window.onload = removeIdForMobileView;
     window.onresize = removeIdForMobileView;
+
+    function checkScreenWidth() {
+        const videoContainer = document.querySelector('.mobile');
+        if (window.innerWidth > 768) {
+            videoContainer.classList.add('hidden');
+        } else {
+            
+            videoContainer.classList.remove('hidden');
+        }
+    }
+
+    // Check on initial load
+    checkScreenWidth();
+
+    // Add event listener to check when the window is resized
+    window.addEventListener('resize', checkScreenWidth);
 </script>
 
 	
