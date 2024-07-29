@@ -642,7 +642,7 @@ button:focus {
 
 #mu-video {
 	/* background: url("assets/images/hypnotic.gif") 0 0; */
-	background: url("https://www.animaker.com/hub/wp-content/uploads/2022/10/5S6813BUQO3A5PSQ-1.gif") 0 0;
+	background: url("https://static.vecteezy.com/system/resources/thumbnails/003/031/763/small/blue-wide-background-with-radial-blurred-gradient-free-vector.jpg") 0 0;
 
 	background-attachment: scroll;
 	background-position: center center;
@@ -653,7 +653,21 @@ button:focus {
 	float: left;
 	width: 100%;
 }
-
+.video {
+            border: 2px solid white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        /* Styling the video controls */
+        .video::-webkit-media-controls-panel {
+            background-color: rgba(0, 0, 0, 0.5) !important;
+        }
+        video::-webkit-media-controls-play-button,
+        video::-webkit-media-controls-volume-slider,
+        video::-webkit-media-controls-mute-button,
+        video::-webkit-media-controls-fullscreen-button {
+            filter: invert(1);
+        }
 .mu-video-overlay {
 	display: inline;
 	float: left;
