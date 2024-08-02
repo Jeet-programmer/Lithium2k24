@@ -546,19 +546,19 @@ button:focus {
 	line-height: 20px;
 }
 
-#logo_image{
+#logo_image-2{
 	max-width: 55px;
 	position: absolute;
 	left: 30px;
-	top: 5px;
+	top: 1px;
 }
-#logo_image-2{
-	max-width: 60px;
+#logo_image-3{
+	max-width: 55px;
 	position: absolute;
 	left: 90px;
 	top: 5px;
 }
-#logo_image-3{
+#logo_image{
 	max-width: 55px;
 	position: absolute;
 	left: 160px;
