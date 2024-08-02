@@ -547,10 +547,22 @@ button:focus {
 }
 
 #logo_image{
-	max-width: 60px;
+	max-width: 55px;
 	position: absolute;
 	left: 30px;
-	top: 10px;
+	top: 5px;
+}
+#logo_image-2{
+	max-width: 60px;
+	position: absolute;
+	left: 90px;
+	top: 5px;
+}
+#logo_image-3{
+	max-width: 55px;
+	position: absolute;
+	left: 160px;
+	top: 5px;
 }
 
 .mu-navbar .mu-menu li a {
