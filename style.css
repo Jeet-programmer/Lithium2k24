@@ -1005,6 +1005,7 @@ fo
 	display: inline;
 	float: left;
 	width: 100%;
+	height: 800px;
 }
 
 .mu-venue-area {
@@ -2463,10 +2464,10 @@ img::-moz-selection {
 	left:100px;
 }
 
-#jatin{
+/* #jatin{
 	position: relative;
 	left : 0px;
-}
+} */
 
 #hos{
 	position:absolute;
@@ -2498,20 +2499,20 @@ img::-moz-selection {
 
 	#soc{
 		position: relative;
-		top : -20px;
+		top : -50px;
 		left:0px;
 	}
 
-	#jatin{
+	/* #jatin{
 		position: relative;
 		top : 0px;
 		
 
-	}
+	} */
 
 	#hos{
 		position:relative;
-		top : 0px;
+		top : -250px;
 		left:0px;
 
 	}
