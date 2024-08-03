@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lithium 2k24 Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <nav>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+    </nav>
+<div class="flipbox-container">
+        <div class="flipbox" id="flipbox">
+            <div class="flipbox-front">
+                <img src="Frame 1.jpg" alt="Front Image">
+            </div>
+            <div class="flipbox-back">
+                <img src="INVITATION LATER __ PAGE 2 - Copy.jpg" alt="Back Image">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    const flipbox = document.getElementById('flipbox');
+    
+    // Check if the screen width is less than or equal to 768px (mobile view)
+    if (window.innerWidth <= 768) {
+        flipbox.addEventListener('click', function() {
+            // Toggle the 'flipped' class on click
+            console.log('clicked');
+            flipbox.classList.toggle('flipped');
+        });
+    }
+});
+
+    </script>
+</body>
+</html>
