@@ -3767,16 +3767,16 @@ section{
 	  font-family: 'lemonmilkregular', sans-serif;
       -webkit-background-clip: text;
       /* color: transparent; */
-	  color: #f0f0f0 ;
+	  color: #cbdf35 ;
       font-size: 6em;
       margin: 20px 0;
-	  text-shadow: 3px 3px 20px #2a2eff,
+	  text-shadow: 3px 3px 20px #00000a,
     -2px 1px 30px #999cff;
 	 /* text-shadow: 8px 8px 12px #ff2a2d;*/
 	  text-align: center;
 	  font-weight: bold;
 	  letter-spacing: 10px;
-	  filter: drop-shadow(16px 16px 20px #2e2aff);
+	  filter: drop-shadow(16px 16px 20px #000005);
 	  
 
 
@@ -3786,10 +3786,10 @@ section{
 	/* p { */
       font-size: 3em;
 	  font-family: 'comfortaaregular',sans-serif;
-      color:#7fff00;
+      color:#0af2f2;
 	  /*text-shadow: 8px 8px 12px #f0f0f0 ;*/
 	  text-shadow: 3px 3px 20px #000080 ,
-    -2px 1px 30px #00ced1;
+    -2px 1px 30px #06eaee;
 	  text-align: center;
 	  font-weight: bold;
 	  filter: drop-shadow(16px 16px 20px #000080);
