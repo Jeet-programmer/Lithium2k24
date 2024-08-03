@@ -549,13 +549,13 @@ button:focus {
 #logo_image-2{
 	max-width: 55px;
 	position: absolute;
-	left: 30px;
+	left: 90px;
 	top: 1px;
 }
 #logo_image-3{
 	max-width: 55px;
 	position: absolute;
-	left: 90px;
+	left: 30px;
 	top: 5px;
 }
 #logo_image{
